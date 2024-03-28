@@ -162,3 +162,4 @@ cython_debug/
 # data files
 notebook/aclImdb
 notebook/aclImdb_v1.tar.gz
+test.ipynb

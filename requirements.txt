@@ -5,3 +5,6 @@ ipykernel
 scikit-learn
 nltk
 xgboost
+torch
+torchtext
+torchdata

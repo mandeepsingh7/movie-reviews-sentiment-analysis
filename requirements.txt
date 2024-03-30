@@ -1,10 +1,13 @@
 numpy
 pandas
 matplotlib
+seaborn
 ipykernel
 scikit-learn
 nltk
+spacy
 xgboost
 torch
 torchtext
 torchdata
+tqdm

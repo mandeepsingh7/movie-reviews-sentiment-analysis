@@ -11,3 +11,4 @@ torch
 torchtext
 torchdata
 tqdm
+transformers

@@ -163,3 +163,4 @@ cython_debug/
 notebook/aclImdb
 notebook/aclImdb_v1.tar.gz
 test.ipynb
+notebook/imdb_data.csv

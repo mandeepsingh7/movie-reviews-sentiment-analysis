@@ -19,18 +19,18 @@ In this project, we perform sentiment analysis on the IMDB movie review dataset.
 
 We implemented several traditional machine learning classification models to classify movie reviews into positive or negative sentiments. These models include:
 
-- **Logistic Regression**
-- **Naive Bayes**
-- **Support Vector Machine (SVM)**
-- **Random Forest**
-- **K-Nearest Neighbors (KNN)**
+- **SVM (Support Vector Machine)**: Achieved an accuracy of 90.8%.
+- **Logistic Regression**: Achieved an accuracy of 90.2%.
+- **Naive Bayes**: Achieved an accuracy of 88.2%.
+- **Random Forest**: Achieved an accuracy of 82.6%.
+- **K-Nearest Neighbors (KNN)**: Achieved an accuracy of 79.8%.
 
 ### Deep Learning Models
 
 Additionally, Long Short-Term Memory (LSTM) neural networks were employed for sentiment analysis. Two distinct approaches were compared:
 
-- **LSTM without GloVe Embeddings**: In this approach, a vocabulary was constructed from the dataset, and each review was numerically encoded to feed into the LSTM model.
-- **LSTM with GloVe Embeddings**: Pre-trained GloVe word embeddings were utilized to initialize the embedding layer of the LSTM model, enhancing its ability to capture semantic information.
+- **LSTM without GloVe Embeddings**: In this approach, a vocabulary was constructed from the dataset, and each review was numerically encoded to feed into the LSTM model. Achieved an accuracy of 88.5% 
+- **LSTM with GloVe Embeddings**: Pre-trained GloVe word embeddings were utilized to initialize the embedding layer of the LSTM model, enhancing its ability to capture semantic information. Achieved an accuracy of 87.6%.
 - **DistilBERT**: Fine-tuned for 5 epochs, yielding an accuracy of 92.1%.
 
 ### Results

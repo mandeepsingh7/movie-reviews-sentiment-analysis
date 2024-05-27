@@ -37,7 +37,7 @@ Additionally, Long Short-Term Memory (LSTM) neural networks were employed for se
 
 The performance of each model was evaluated using accuracy metrics. The following notable results were achieved:
 
-- **SVM**: Attained the highest accuracy of 90.8%.
+- **SVM**: Achieved an accuracy of 90.8%.
 - **DistilBERT**: got an accuracy of 92.1%.
 
 

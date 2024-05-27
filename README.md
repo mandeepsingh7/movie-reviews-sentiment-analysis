@@ -4,7 +4,7 @@
 
 In this project, we perform sentiment analysis on the IMDB movie review dataset. The dataset comprises 50,000 reviews, evenly distributed between positive and negative sentiments, making it an ideal resource for sentiment analysis tasks.
 
-## Dataset
+### Dataset
 
 - **Source**: [IMDB movie review dataset](https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz)
 - **Description**: The dataset comprises 50,000 reviews, equally divided into positive and negative sentiments.
@@ -42,7 +42,7 @@ The performance of each model was evaluated using accuracy metrics. The followin
 
 
 
-## Project Files
+### Project Files
 
 - `data_extraction.ipynb`: Responsible for data preprocessing and saving the preprocessed data into a CSV file.
 - `ml_training.ipynb`: Conducts the training of ML models (SVM, Logistic Regression, Naive Bayes, Random Forest, KNN) using the preprocessed CSV file.

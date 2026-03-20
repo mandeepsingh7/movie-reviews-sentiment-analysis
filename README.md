@@ -45,6 +45,17 @@ The pipeline includes:
 
 Transformer models achieve higher accuracy, while ML models provide faster inference.
 
+## Deployment Strategy
+
+While the DistilBERT model achieved higher accuracy (90.9%), it was computationally expensive and resulted in slower inference times on resource-constrained environments.
+
+For deployment, a **TF-IDF + Logistic Regression model** was used instead, as it provides:
+- Significantly faster inference
+- Lower memory and compute requirements
+- Better suitability for real-time applications on limited infrastructure
+
+This tradeoff enables efficient deployment on a lightweight AWS EC2 instance while maintaining competitive accuracy (88%).
+
 ## Project Structure
 
 ```text
